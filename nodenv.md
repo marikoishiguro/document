@@ -72,7 +72,7 @@ nodenv --version
 nodenv install --list
 ```
 
-*コマンドが使用できない場合は※1を実行する*
+*コマンドが使用できない場合（nodenv: no such command `install'）は※1を実行する*
 
 
 
@@ -133,7 +133,7 @@ node -v
 ```
 
 
-### ※1 nodenv installが使えない時の対処法
+### ※1 nodenv installが使えない時（nodenv: no such command `install'）の対処法
 
 ```
 mkdir plugins
