@@ -8,7 +8,7 @@ macOS Ventura 13.5.2
 
 ## ターミナルを起動します
 
-ターミナルについて
+[ターミナルについて](https://support.apple.com/ja-jp/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
 
 ## nodenvのダウンロード
 
@@ -76,11 +76,21 @@ nodenv install --list
 
 
 
+
+
 - nodeのインストール（最新バージョンを指定） 
 
 ```
 nodenv install 21.7.1
 ```
+
+
+- nodenvからnodeやグローバルなnpmパッケージを見えるようにするためにrehashを行う
+
+```
+nodenv rehash
+```
+
 
 
 - ひとつ前のバージョンのインストール
